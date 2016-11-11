@@ -137,6 +137,6 @@ public class ReadReplicaBalancer {
 		}
 
 		return ROEndpoints.get(node).toString();
-	}
+	} 
 
 }
