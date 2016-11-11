@@ -18,7 +18,9 @@ Option 2: Randomly select a node from the available replica's excluding a node
 
 <b><i>Example 2: String node = readReplicaBalancer.loadBalance(endpoints, NodetoExclude);</b></i>
 
-Demo code shows how it can be used with Jedis but any Redis Java Library will work.
+Demo code shows how it can be used with Jedis but any Redis Java Library will work. 
+
+The code loops through the library so you can test against it.
 
 <b><i>Jedis jedis = new Jedis(node, 6379);</b></i>
 
