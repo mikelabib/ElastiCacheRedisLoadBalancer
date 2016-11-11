@@ -1,8 +1,10 @@
 # ElastiCacheRedisLoadBalancer
 
 ## Summary
-This simple library provides a list of available read replica's for a given ElastiCache ReplicationGroupId and provides options to load
-balance against them by randomly selecting a node that you can connect to.
+
+Version: 0.0.1
+
+This simple library provides a list of available read replica's for a given ElastiCache ReplicationGroupId and provides options to load balance against them by randomly selecting a node that you can connect to.
 
 static ReadReplicaBalancer readReplicaBalancer = new ReadReplicaBalancer();
 
