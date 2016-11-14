@@ -67,6 +67,9 @@ public class ReadReplicaBalancerExample {
 					  //Connect with replica node. Use any client you choose.
 					  Jedis jedis = new Jedis(node, 6379);
 					  jedis.set("someKey", "someValue");
+
+					jedis.close();
+				        jedis.disconnect();
 				  
 				  }				
 				 
